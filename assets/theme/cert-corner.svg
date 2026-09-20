@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <defs>
+    <linearGradient id="cc-petal" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FAF1E6"/>
+      <stop offset="60%" stop-color="#F2D6C9"/>
+      <stop offset="100%" stop-color="#DFA195"/>
+    </linearGradient>
+    <radialGradient id="cc-pod" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#EDD08A"/>
+      <stop offset="70%" stop-color="#C9A55C"/>
+      <stop offset="100%" stop-color="#A87F34"/>
+    </radialGradient>
+    <path id="cc-p" d="M0 0 C -30 -18 -38 -78 0 -128 C 38 -78 30 -18 0 0 Z"/>
+  </defs>
+
+  <!-- gilt corner rules -->
+  <path d="M3 93 V32 Q3 3 32 3 H93" stroke="#B08840" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M11 93 V38 Q11 11 38 11 H93" stroke="#C9A55C" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- small lotus -->
+  <g transform="translate(30 46) scale(0.17)">
+    <g stroke="#B8746A" stroke-width="6">
+      <use href="#cc-p" transform="rotate(-40) scale(1.1)" fill="url(#cc-petal)"/>
+      <use href="#cc-p" transform="rotate(40) scale(1.1)" fill="url(#cc-petal)"/>
+    </g>
+    <g stroke="#C9938A" stroke-width="6">
+      <use href="#cc-p" transform="rotate(-18)" fill="url(#cc-petal)"/>
+      <use href="#cc-p" fill="url(#cc-petal)"/>
+      <use href="#cc-p" transform="rotate(18)" fill="url(#cc-petal)"/>
+    </g>
+    <ellipse cx="0" cy="-26" rx="30" ry="20" fill="url(#cc-pod)" stroke="#8A6420" stroke-width="8"/>
+  </g>
+
+  <!-- leaf -->
+  <path d="M52 26 C 42 20 38 8 44 -2 C 56 4 58 16 52 26 Z" fill="#86986C" stroke="#57683F" stroke-width="1"/>
+
+  <g fill="#B08840">
+    <circle cx="62" cy="14" r="1.8"/><circle cx="14" cy="62" r="1.8"/>
+  </g>
+</svg>

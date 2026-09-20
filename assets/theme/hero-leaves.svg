@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440">
+  <defs>
+    <radialGradient id="hl-leafA" cx="50%" cy="45%" r="68%">
+      <stop offset="0%" stop-color="#ACBA8D"/>
+      <stop offset="55%" stop-color="#86986C"/>
+      <stop offset="100%" stop-color="#62734B"/>
+    </radialGradient>
+    <radialGradient id="hl-leafB" cx="50%" cy="45%" r="68%">
+      <stop offset="0%" stop-color="#BCC79F"/>
+      <stop offset="58%" stop-color="#96A577"/>
+      <stop offset="100%" stop-color="#6E7F56"/>
+    </radialGradient>
+    <linearGradient id="hl-budG" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FAF1E6"/>
+      <stop offset="60%" stop-color="#F2D6C9"/>
+      <stop offset="100%" stop-color="#DFA195"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M150 316 C 158 360 152 400 140 436" fill="none" stroke="#6B7C53" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M255 168 C 262 200 260 224 252 248" fill="none" stroke="#6B7C53" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- back leaf -->
+  <g transform="translate(290 340) rotate(24)">
+    <path d="M0 -105 C 58 -105 105 -55 105 0 C 105 55 58 105 0 105 C -58 105 -105 55 -105 0 C -105 -55 -58 -105 0 -105 Z" fill="url(#hl-leafB)"/>
+    <path d="M0 0 L0 -96 M0 0 L48 -83 M0 0 L83 -48 M0 0 L96 0 M0 0 L83 48 M0 0 L48 83 M0 0 L0 96 M0 0 L-48 83 M0 0 L-83 48 M0 0 L-96 0 M0 0 L-83 -48 M0 0 L-48 -83" stroke="#57683F" stroke-width="1.6" opacity="0.45" fill="none"/>
+    <path d="M0 -105 C 58 -105 105 -55 105 0 C 105 55 58 105 0 105 C -58 105 -105 55 -105 0 C -105 -55 -58 -105 0 -105 Z" fill="none" stroke="#57683F" stroke-width="2.4" opacity="0.6"/>
+  </g>
+
+  <!-- front leaf -->
+  <g transform="translate(150 310) rotate(-6)">
+    <path d="M0 -140 C 77 -140 140 -72 140 0 C 140 72 77 140 0 140 C -77 140 -140 72 -140 0 C -140 -72 -77 -140 0 -140 Z" fill="url(#hl-leafA)"/>
+    <path d="M0 0 L0 -128 M0 0 L64 -111 M0 0 L111 -64 M0 0 L128 0 M0 0 L111 64 M0 0 L64 111 M0 0 L0 128 M0 0 L-64 111 M0 0 L-111 64 M0 0 L-128 0 M0 0 L-111 -64 M0 0 L-64 -111" stroke="#4F6039" stroke-width="1.8" opacity="0.5" fill="none"/>
+    <path d="M0 -140 C 77 -140 140 -72 140 0 C 140 72 77 140 0 140 C -77 140 -140 72 -140 0 C -140 -72 -77 -140 0 -140 Z" fill="none" stroke="#4F6039" stroke-width="2.6" opacity="0.65"/>
+    <circle r="7" fill="#4F6039" opacity="0.5"/>
+  </g>
+
+  <!-- bud -->
+  <g transform="translate(255 165) rotate(12)">
+    <path d="M0 0 C -18 -10 -22 -52 0 -82 C 22 -52 18 -10 0 0 Z" fill="url(#hl-budG)" stroke="#C9938A" stroke-width="1.2"/>
+    <path d="M0 -4 C -8 -28 -8 -56 0 -78" stroke="#B8746A" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M0 2 C -14 -4 -24 -24 -26 -46 C -11 -36 -3 -18 0 2 Z" fill="#86986C" stroke="#57683F" stroke-width="1"/>
+    <path d="M0 2 C 14 -4 24 -24 26 -46 C 11 -36 3 -18 0 2 Z" fill="#86986C" stroke="#57683F" stroke-width="1"/>
+  </g>
+
+  <g fill="#B08840" opacity="0.85">
+    <circle cx="90" cy="120" r="2.4"/><circle cx="122" cy="90" r="2"/><circle cx="66" cy="160" r="1.8"/>
+  </g>
+</svg>

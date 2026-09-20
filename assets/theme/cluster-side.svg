@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 760">
+  <defs>
+    <linearGradient id="cs-petalM" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FAF1E6"/>
+      <stop offset="58%" stop-color="#F2D6C9"/>
+      <stop offset="100%" stop-color="#DFA195"/>
+    </linearGradient>
+    <linearGradient id="cs-petalB" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F6E8DB"/>
+      <stop offset="55%" stop-color="#EEC9BB"/>
+      <stop offset="100%" stop-color="#D69388"/>
+    </linearGradient>
+    <linearGradient id="cs-leafG" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#9CAE7E"/>
+      <stop offset="100%" stop-color="#5F7048"/>
+    </linearGradient>
+    <linearGradient id="cs-blG" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F7E9DF"/>
+      <stop offset="100%" stop-color="#D89A8E"/>
+    </linearGradient>
+    <radialGradient id="cs-podG" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#EDD08A"/>
+      <stop offset="70%" stop-color="#C9A55C"/>
+      <stop offset="100%" stop-color="#A87F34"/>
+    </radialGradient>
+    <path id="cs-petal" d="M0 0 C -30 -18 -38 -78 0 -128 C 38 -78 30 -18 0 0 Z"/>
+    <g id="cs-leaf">
+      <path d="M0 0 C -34 -10 -50 -62 0 -112 C 50 -62 34 -10 0 0 Z" fill="url(#cs-leafG)" stroke="#57683F" stroke-width="1.5"/>
+      <path d="M0 -8 L0 -100" stroke="#4F6039" stroke-width="1.5" opacity="0.6" fill="none"/>
+    </g>
+    <g id="cs-bloom">
+      <g fill="url(#cs-blG)" stroke="#B8746A" stroke-width="1">
+        <path d="M0 0 C -13 -8 -17 -30 0 -46 C 17 -30 13 -8 0 0 Z"/>
+        <path d="M0 0 C -13 -8 -17 -30 0 -46 C 17 -30 13 -8 0 0 Z" transform="rotate(72)"/>
+        <path d="M0 0 C -13 -8 -17 -30 0 -46 C 17 -30 13 -8 0 0 Z" transform="rotate(144)"/>
+        <path d="M0 0 C -13 -8 -17 -30 0 -46 C 17 -30 13 -8 0 0 Z" transform="rotate(216)"/>
+        <path d="M0 0 C -13 -8 -17 -30 0 -46 C 17 -30 13 -8 0 0 Z" transform="rotate(288)"/>
+      </g>
+      <circle r="7" fill="url(#cs-podG)" stroke="#8A6420" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <!-- main stem -->
+  <path d="M190 750 C 168 610 212 490 186 370 C 164 268 196 150 182 44" fill="none" stroke="#6B7C53" stroke-width="6" stroke-linecap="round"/>
+  <path d="M186 370 C 160 356 148 344 142 330" fill="none" stroke="#6B7C53" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M189 500 C 206 510 212 516 216 524" fill="none" stroke="#6B7C53" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- leaves -->
+  <use href="#cs-leaf" transform="translate(190 600) rotate(-52) scale(1.05)"/>
+  <use href="#cs-leaf" transform="translate(186 420) rotate(54)"/>
+  <use href="#cs-leaf" transform="translate(188 246) rotate(-46) scale(0.9)"/>
+
+  <!-- small lotus at top -->
+  <g transform="translate(182 130) scale(0.5)">
+    <g stroke="#B8746A" stroke-width="1.4" opacity="0.92">
+      <use href="#cs-petal" transform="rotate(-50) scale(1.12)" fill="url(#cs-petalB)"/>
+      <use href="#cs-petal" transform="rotate(-25) scale(1.12)" fill="url(#cs-petalB)"/>
+      <use href="#cs-petal" transform="scale(1.12)" fill="url(#cs-petalB)"/>
+      <use href="#cs-petal" transform="rotate(25) scale(1.12)" fill="url(#cs-petalB)"/>
+      <use href="#cs-petal" transform="rotate(50) scale(1.12)" fill="url(#cs-petalB)"/>
+    </g>
+    <g stroke="#C9938A" stroke-width="1.4">
+      <use href="#cs-petal" transform="rotate(-36)" fill="url(#cs-petalM)"/>
+      <use href="#cs-petal" transform="rotate(-12)" fill="url(#cs-petalM)"/>
+      <use href="#cs-petal" transform="rotate(12)" fill="url(#cs-petalM)"/>
+      <use href="#cs-petal" transform="rotate(36)" fill="url(#cs-petalM)"/>
+    </g>
+    <ellipse cx="0" cy="-26" rx="30" ry="20" fill="url(#cs-podG)" stroke="#8A6420" stroke-width="2"/>
+    <g fill="#8A6420">
+      <circle cx="-11" cy="-30" r="3.4"/><circle cx="0" cy="-33" r="3.4"/><circle cx="11" cy="-30" r="3.4"/>
+    </g>
+  </g>
+
+  <!-- blossoms -->
+  <use href="#cs-bloom" transform="translate(142 328) rotate(-10) scale(0.85)"/>
+  <use href="#cs-bloom" transform="translate(216 526) rotate(12) scale(0.95)"/>
+
+  <!-- bud -->
+  <path d="M0 0 C -16 -8 -20 -44 0 -68 C 20 -44 16 -8 0 0 Z" transform="translate(206 208) rotate(-35)" fill="url(#cs-petalM)" stroke="#C9938A" stroke-width="1.2"/>
+
+  <!-- gold dots -->
+  <g fill="#B08840" opacity="0.85">
+    <circle cx="120" cy="260" r="2.2"/><circle cx="252" cy="300" r="2.2"/><circle cx="140" cy="462" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 60">
+  <defs>
+    <linearGradient id="dv-petal" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FAF1E6"/>
+      <stop offset="58%" stop-color="#F2D6C9"/>
+      <stop offset="100%" stop-color="#DFA195"/>
+    </linearGradient>
+    <radialGradient id="dv-pod" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#EDD08A"/>
+      <stop offset="70%" stop-color="#C9A55C"/>
+      <stop offset="100%" stop-color="#A87F34"/>
+    </radialGradient>
+    <path id="dv-p" d="M0 0 C -30 -18 -38 -78 0 -128 C 38 -78 30 -18 0 0 Z"/>
+  </defs>
+  <g transform="translate(42 46) scale(0.3)">
+    <g stroke="#C9938A" stroke-width="3">
+      <use href="#dv-p" transform="rotate(-50)" fill="url(#dv-petal)"/>
+      <use href="#dv-p" transform="rotate(-25)" fill="url(#dv-petal)"/>
+      <use href="#dv-p" fill="url(#dv-petal)"/>
+      <use href="#dv-p" transform="rotate(25)" fill="url(#dv-petal)"/>
+      <use href="#dv-p" transform="rotate(50)" fill="url(#dv-petal)"/>
+    </g>
+    <ellipse cx="0" cy="-26" rx="30" ry="20" fill="url(#dv-pod)" stroke="#8A6420" stroke-width="4"/>
+  </g>
+  <path d="M14 50 C 4 46 0 36 6 28 C 16 32 18 42 14 50 Z" fill="#86986C" stroke="#57683F" stroke-width="0.8"/>
+  <path d="M70 50 C 80 46 84 36 78 28 C 68 32 66 42 70 50 Z" fill="#86986C" stroke="#57683F" stroke-width="0.8"/>
+  <circle cx="6" cy="46" r="1.6" fill="#B08840"/>
+  <circle cx="78" cy="46" r="1.6" fill="#B08840"/>
+</svg>
