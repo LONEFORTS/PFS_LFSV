@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none" stroke="#B08840" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <g>
+    <!-- Corner gold rule -->
+    <path d="M8 152 V 44 Q 8 8 44 8 H 152" stroke-width="1.2"/>
+    <path d="M16 152 V 52 Q 16 16 52 16 H 152" stroke-opacity="0.6"/>
+    <!-- Lotus tucked in the corner -->
+    <g transform="translate(30,30)">
+      <path d="M0 28 C -18 20 -22 4 -14 -8 C -4 -6 6 4 8 16 C 10 4 20 -6 30 -8 C 36 4 32 20 14 28 Z" fill="#FFF6E1" fill-opacity="0.85"/>
+      <path d="M0 26 C -12 18 -16 6 -10 -4 C -2 -2 6 6 8 14"/>
+      <path d="M14 26 C 26 18 30 6 24 -4 C 16 -2 10 6 8 14"/>
+      <circle cx="8" cy="4" r="1.6" fill="#B08840" stroke="none"/>
+    </g>
+    <!-- Branch trailing -->
+    <path d="M50 30 C 80 40 100 60 110 90" stroke="#7C8B5F"/>
+    <path d="M80 45 C 90 40 100 42 104 50" fill="#7C8B5F" fill-opacity="0.28" stroke="#7C8B5F"/>
+    <circle cx="110" cy="90" r="5" fill="#B8746A" fill-opacity="0.4" stroke="#B8746A"/>
+    <circle cx="110" cy="90" r="1.2" fill="#B08840" stroke="none"/>
+  </g>
+</svg>
